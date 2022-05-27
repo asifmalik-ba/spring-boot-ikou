@@ -5,7 +5,10 @@ import java.util.Arrays;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 //16:16
+@Service
 public class TopicService {
     
     private List<Topic> topics = Arrays.asList(
